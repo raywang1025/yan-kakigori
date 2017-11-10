@@ -1,0 +1,298 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+	margin:0;
+	padding:0;
+	list-style: none;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+.clear {
+	clear:both;
+}
+
+.container {
+	width:960px;
+	margin:auto;
+}
+img {
+	vertical-align: top;	
+}
+/*.header-------*/
+		.menu > li > a > p {
+			letter-spacing: 3px;
+
+		}
+		.menu img {
+			margin-top:-23px;
+			margin-bottom:0px;
+		}
+		.menu{
+			text-align: center;	
+			background-color: #4B6C9F;
+		}
+		.menu > li{
+			display: inline-block;
+			position: relative;	
+		}
+		.menu > li > a{
+			display: block;
+			padding: 6px 20px;
+			background-color: #4B6C9F;
+			text-decoration: none;
+			color: #fff;
+			text-shadow: 1px 1px 1px #000;
+			transition:color 0.5s;
+		}
+		.menu > li:hover > a {
+			color:#666;
+		}
+
+		.menu ul{ /*第二層ul固定在第一層li*/
+			position: absolute;	
+			left: 0;
+			top: 100%;	/*定位在第一層li下面一倍*/
+			width: 150px;
+			display: none; /*第二層ul消失*/
+			z-index:999; /*submenu被圖片蓋住時增加*/
+		}
+		.menu > li:hover ul{
+			display: block; /*摸到第一層li(定位的li
+				)，第二層ul出現*/
+		}
+		.menu ul li{}
+		.menu ul a{
+			display: block;
+			background-color: #00265A;
+			padding: 6px 10px;	
+			color:#fff;
+			text-decoration: none;
+			transition: color 0.5s;
+		}
+		.menu ul > li > a:hover {
+			color:#666;
+		}
+/*banner--------------*/
+.banner {
+	position:relative;
+}
+
+.title_gelato {
+	width:480px;
+	height:372px;
+	background-color: rgba(2,41,90,0.5);
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.title_gelato h1{
+	position:absolute;
+	right:0;
+	bottom:0;
+	margin:50px;
+	text-align: center;
+	color:#fff;
+	letter-spacing: 10px;
+	text-shadow:1px 1px #666;
+	font-size:50px;
+}
+
+/*cranberry-----------*/
+.cranberry_banner {
+	position:relative;
+	opacity:1;
+	transition:opacity 0.5s;
+}
+.cranberry_banner:hover {
+	opacity:0.75;
+	
+}.cranberry_banner:hover h1{
+	text-shadow:2px 2px #000;
+}
+
+.cranberry_blank {
+	width:0;
+	height:0;
+	border-style: solid solid solid solid;
+	border-color: rgba(255,255,255,0.3) rgba(255,255,255,0.3) transparent transparent;
+	border-width: 270px 480px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.title_cranberry h1{
+	position:absolute;
+	right:0;
+	top:0;
+	margin:40px;
+	color:#fff;
+	font-size:30px;
+	text-align: center;
+	letter-spacing: 10px;
+	text-shadow: 2px 2px 2px #666;
+	transition:text-shadow 0.75s;
+
+}
+/*matcha-----------*/
+.matcha_banner {
+	position:relative;
+	opacity:1;
+	transition:opacity 0.75s;
+}
+.matcha_banner:hover {
+	opacity:0.75;
+}
+
+.matcha_banner:hover h1{
+	text-shadow:2px 2px #000;
+}
+.matcha_blank {
+	width:960px;
+	height:240px;
+	background-color: rgba(255,255,255,0.3);
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.matcha_txt h1 {
+	color:#fff;
+	position:absolute;
+	right:0;
+	bottom:0;
+	margin:0 50px 50px 0;
+	text-shadow:1px 1px #666;
+	transition:text-shadow 0.75s;
+
+}
+/*passionfruit----------*/
+.passionfruit_banner {
+	position:relative;
+	opacity:1;
+	transition:opacity 0.75s;
+}
+
+.passionfruit_banner:hover {
+	opacity:0.75;
+}
+
+.passionfruit_blank {
+	width:480px;
+	height:240px;
+	background-color: rgba(255,255,255,0.3);
+	position:absolute;
+	right:0;
+	bottom:250px;
+}
+.passionfruit_txt {
+	position:absolute;
+	right:0;
+	bottom:350px;
+	color:#fff;
+	text-shadow: 1px 1px #666;
+	transition:text-shadow 0.75s;
+}
+.passionfruit_txt:hover {
+	text-shadow:2px 2px #000;
+}
+/*footer---------*/
+
+.footer {
+	width:960px;
+	height:600px;
+	background-color: #00265A;
+	padding:50px 0;
+}
+.blank {
+	width:880px;
+	height:500px;
+	margin:50px 40px; /*margin上下無法，要用父層的padding壓*/
+	background-color: #406093;
+	text-align: center;	
+	padding-top:50px;
+}
+.logo {
+}
+.sitemap {
+	float:left;
+	width:256px;
+	margin-top:60px;
+
+	text-align: left;
+	/*padding-left:70px;*/
+}.sitemap_center {
+	float:left;
+	width:256px;
+	margin-top:60px;
+
+	text-align: left;
+	padding-left:70px;
+}
+.sitemap_right {
+	float:right;
+	width:160px;
+	margin-top:60px;
+
+	text-align: left;
+	/*padding-left:70px;*/
+}
+.blank .item {
+	padding:0 20px;
+	text-shadow: 0.5px 0.5px 0.5px #000;
+}
+/*-----------------*/
+.sitemap a {
+	text-decoration: none;
+	color:#888;
+	font-size:20px;
+	margin-top:5px;
+	/*text-align: left*/
+	transition:color 0.5s;
+}
+.sitemap_center a {
+	text-decoration: none;
+	color:#888;
+	font-size:20px;
+	/*text-align: left*/
+	transition:color 0.5s;
+
+}
+.sitemap_right a {
+	text-decoration: none;
+	color:#888;
+	font-size:20px;
+	/*text-align: left*/
+	transition:color 0.5s;
+
+}
+.sitemap a:hover {
+	color:#666;
+}
+.sitemap_center a:hover {
+	color:#666;
+}
+.sitemap_right a:hover {
+	color:#666;
+}
+/*--------------------*/
+.sitemap .small {
+	text-decoration: none;
+	color:#FFF;
+	font-size:16px;
+}
+.blank .address {
+	margin-top:120px;
+	color:#fff;
+	letter-spacing: 5px;
+	text-shadow: 0.5px 0.5px 0.5px #000;
+}
+.sitemap_center .small {
+	text-decoration: none;
+	color:#FFF;
+	font-size:16px;
+}
+
+.sitemap_right .small {
+	text-decoration: none;
+	color:#FFF;
+	font-size:16px;
+}
+

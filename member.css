@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Noto Sans TC', sans-serif;
+	color:#fff;
+}
+
+.clear {
+	clear:both;
+}
+
+.container {
+	width:960px;
+	margin:auto;
+	background-color: #A67A53;
+}
+
+img {
+	/*width: 100%;	*/
+	vertical-align: top;
+}
+
+/*header-----------*/
+.header {
+	background-color: #4B6C9F;
+	width:960px;
+	height:90px;
+}
+.searchbar {
+	float:left;
+	margin-top:30px;
+	margin-left:50px;
+
+}
+.header_logo {
+	float:left;
+	margin-left:400px;
+	margin-top:15px;
+
+}
+.signin {
+	float:right;
+	margin-top:30px;
+	margin-right:50px;
+
+
+}
+/*-------------------menu*/
+.information .menu {
+	width:150px;
+	background-color: #666;
+}
+.menu,.product,.cart{
+	float:left;
+	margin:10px 8px;
+}
+.menu a{
+	text-decoration:none;
+	color:#fff;
+	border-bottom:1px solid #FFF;
+	display:block;
+	text-align: left;
+	padding:10px
+}
+
+/*cart-----------------*/
+.cart_data {
+}
+
+.cart {
+	width:480px;
+	background-color: #ccc;
+	border-radius: 20px;
+	text-align: center;
+	margin-left:75px;
+}
+.cart_table {
+	background-color: #ccc;
+}
+.item_l {
+	float:left;
+}
+
+.item_r {
+	background-color: #fff;
+	float:right;
+	padding:30px;
+	border-radius: 10px;
+}
+
+/*buy_section--------*/
+.buy_section h5 {
+	font-size: 20px;
+}
+.buy_section p{
+	width:50px;
+	height:30px;
+	background-color: #f00;
+	color:#fff;
+	border-radius: 10px;
+	padding:5px;
+	text-align: center;
+	font-size: 24px;
+	margin-left:60px;
+}
+.buy_section a{
+	text-decoration: none;
+}
+.buy_section {
+	width:960px;
+	margin-left:600px;
+}
+/*member----------------*/
+.member {
+	background-color: #8C5725;
+	width:960px;
+}
+.function {
+	float:left;
+	/*width:340px;*/
+	margin-left:150px;
+	padding:50px 50px;
+}
+
+
+
+
+/*footer-----------------*/
+.footer {
+	width:900px;
+	height:480px;
+	margin:auto;
+	background-color: #ccc;
+	border-radius: 30px;
+	text-align: center;
+	padding:50px 0;
+}
+/*.footer_cover {
+	margin:10px 0;
+}*/
+.footer_logo {
+	margin-bottom:50px;
+}
+.content_item {
+	float:left;
+	/*margin-top:70px;*/
+	margin-left:5px;
+	margin-right:5px;
+
+	width:280px;
+	height:200px;
+	border:5px solid #888;
+	border-radius: 100px;
+	padding-top:80px;
+	color:#fff;
+	font-size: 24px;
+	background-color: #666;
+
+}

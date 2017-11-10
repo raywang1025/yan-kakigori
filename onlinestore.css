@@ -1,0 +1,289 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Noto Sans TC', sans-serif;
+	color:#fff;
+}
+
+.clear {
+	clear:both;
+}
+
+.container {
+	width:960px;
+	margin:auto;
+	background-color: #A67A53;
+}
+
+img {
+	/*width: 100%;	*/
+	vertical-align: top;
+}
+
+/*header-----------*/
+.header {
+	background-color: #4B6C9F;
+	width:960px;
+	height:90px;
+}
+.signin {
+	float:right;
+	margin-top:15px;
+	margin-right:50px;
+
+
+}
+.signin img{
+	width:40px;
+}
+.signin h5{
+	text-align: center;
+	margin-left:-10px;
+	color:#fff;
+}
+.searchbar {
+	float:left;
+	margin-top:30px;
+	margin-left:50px;
+
+}
+.header_logo {
+	float:left;
+	margin-left:180px;
+	margin-top:15px;
+
+}
+
+/*banner--------------*/
+.banner {
+	width:960px;
+	position:relative;
+}
+.banner_txt h1{
+	position:absolute;
+	top:0;
+	left:0;
+	margin-top:40px;
+	margin-left:40px;
+	font-size:40px;
+	color:#fff;
+	text-shadow:1px 1px #666;
+	text-align: center;
+}
+/*-------------------menu*/
+.information .menu {
+	width:150px;
+	background-color: #666;
+}
+.menu,.product,.cart{
+	float:left;
+	margin:10px 8px;
+}
+.menu a{
+	text-decoration:none;
+	color:#fff;
+	border-bottom:1px solid #FFF;
+	display:block;
+	text-align: left;
+	padding:10px
+}
+/*product-----------*/
+.product_banner {
+	width:610px;
+	position: relative;
+}
+
+.product_banner h3{
+	color:#fff;
+	position:absolute;
+	top:50px;
+	left:270px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 28px;
+}
+.product_banner h4{
+	color:#fff;
+	position:absolute;
+	top:85px;
+	left:275px;
+	text-align: center;
+	letter-spacing: 16px;
+}
+/*.product_banner_2 {
+	width:610px;
+	position: relative;
+}
+
+.product_banner_2 h3{
+	color:#fff;
+	position:absolute;
+	top:50px;
+	left:270px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 28px;
+}
+.product_banner_2 h4{
+	color:#fff;
+	position:absolute;
+	top:85px;
+	left:275px;
+	text-align: center;
+	letter-spacing: 16px;
+}*/
+.product_banner_2 {
+	width:610px;
+	position:relative;
+}
+.product_banner_2 h3{
+	color:#fff;
+	position:absolute;
+	top:50px;
+	left:255px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 28px;
+
+}
+.product_banner_2 h4{
+	color:#fff;
+	position:absolute;
+	top:85px;
+	left:255px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+
+
+.product_group {
+	width:610px;
+}
+.p_item {
+	width:187px;
+	float:left;
+	background-color: #ccc;
+	margin:5px 5px;
+	border:3px solid #ccc;
+}
+.p_item_pic img{
+	width:187px;
+}
+.p_item_txt {
+	padding:0 1px;
+}
+.p_item a {
+	text-decoration: none;
+	color:#fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+/*--------------btn*/
+.btn_cart {
+	width: 80px;
+    background-color: #666;
+    padding: 1px;
+    border-radius: 10px;
+    font-size:12px;
+    float:right;
+    text-align: center;
+}
+.btn_buy {
+	width: 80px;
+    background-color: #f00;
+    float: left;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/*--------------cart*/
+.cart {
+	background-color: #ccc;
+	border-radius: 10px;
+	width:150px;
+	position:relative;
+	text-align: center;
+/*	position:fixed;
+	right:15%;
+	bottom:25%;
+	z-index: 999;*/
+}
+.cart .cart_logo {
+	margin-bottom:1px;
+}
+.item {
+	margin-left:1px;
+	border:1px solid #999;
+	border-radius: 10px;
+	margin:0 18px;
+	background-color: #fff;
+	position: relative;
+}
+.cart_item h3 {
+	color:#999;
+	text-align: left;
+	margin:0 18px;
+	font-size:12px;
+	position:absolute;
+	bottom:75px;
+	left:10px;
+}
+.item p {
+	color:#000;
+	text-align: left;
+	margin:0 18px;
+	font-size:12px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.cart_total {
+	margin-top:1px;
+}
+.btn_total {
+	width:50px;
+	background-color: #888;
+	border-radius: 10px;
+	margin-left:80px;
+}
+/*footer---------*/
+.footer {
+	width:900px;
+	height:480px;
+	margin:auto;
+	background-color: #ccc;
+	border-radius: 30px;
+	text-align: center;
+	padding:50px 0;
+}
+/*.footer_cover {
+	margin:10px 0;
+}*/
+.footer_logo {
+	margin-bottom:50px;
+}
+.content_item {
+	float:left;
+	/*margin-top:70px;*/
+	margin-left:5px;
+	margin-right:5px;
+
+	width:280px;
+	height:200px;
+	border:5px solid #888;
+	border-radius: 100px;
+	padding-top:80px;
+	color:#fff;
+	font-size: 24px;
+	background-color: #666;
+
+}
+/*----------想做checked到之後滿版的說明*/
+/*#detail {
+	position: absolute;
+	opacity:0;
+}*/
+
